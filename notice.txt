@@ -1,3 +1,0 @@
-To run the code you provided in test.py, you'll need to make sure you have the necessary Python packages installed. They are:
-
-pip install pandas matplotlib openpyxl
