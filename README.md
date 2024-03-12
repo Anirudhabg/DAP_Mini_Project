@@ -24,6 +24,6 @@ FeatherGuard is a dynamic Python project aimed at increasing public awareness an
 5. Use the search functionality or browse the available bird species to explore the dataset and visualize bird information.
 
 ## Contributors
-[![Anirudha B G Somayaji](https://github.com/Anirudhabg.png)](https://github.com/Anirudhabg)
-[![Akash C Bhat](https://github.com/akashcbhat.png)](https://github.com/akashcbhat)
+- Anirudha B G Somayaji
+- Akash C Bhat
 
