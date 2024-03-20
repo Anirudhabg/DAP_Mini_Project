@@ -78,22 +78,6 @@ def plot_family(data):
     img_base64 = base64.b64encode(img_bytes.read()).decode('utf-8')
 
     return img_base64
-    
-def plot_geo_curv(data):
-    plt.figure(figsize=(10,6))
-    sns.countplot(x="Family",data=data)
-    plt.title("Distribution of birds on basis of family")
-    plt.xlabel("Family")
-    plt.ylabel("Count")
-
-    img_bytes = BytesIO()
-    plt.savefig(img_bytes, format='png')
-    img_bytes.seek(0)
-    plt.close()
-
-    img_base64 = base64.b64encode(img_bytes.read()).decode('utf-8')
-
-    return img_base64
 
 @app.route('/')
 def index():
