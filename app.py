@@ -17,7 +17,7 @@ def search_bird(bird_name):
         result = pd.DataFrame()
         return result
     result = df[df['Name'].str.lower().str.contains(bird_name)]
-    print(result)
+    # print(result)
     return result
 
 def plot_bird_conservation(data):
